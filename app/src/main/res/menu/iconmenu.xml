@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/home"
+        android:title="@string/home"/>
+
+    <item
+        android:id="@+id/menu_form1"
+        android:icon="@drawable/form"
+        android:title="@string/admission_form1"/>
+    <item
+        android:id="@+id/menu_form2"
+        android:icon="@drawable/form"
+        android:title="@string/admission_form2"/>
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/logout"
+        android:title="@string/logout"/>
+
+
+</menu>

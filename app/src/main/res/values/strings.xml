@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">OnlineForm</string>
+    <string name="name">Enter Full Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="Name">Student name</string>
+    <string name="user_name">User Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="textview">TextView</string>
+    <string name="already_registered_login">Already registered?Login.</string>
+    <string name="user_login">USER LOGIN</string>
+    <string name="todo">TODO</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="online_admission_form">Online Admission Form</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="your_profile">YOUR PROFILE</string>
+    <string name="email">Email</string>
+    <string name="home">Home</string>
+    <string name="admission_form1"> Graduation Admission Form</string>
+    <string name="admission_form2">Post Graduation Admission Form</string>
+    <string name="logout">Logout</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="father_s_name">Father\'s name</string>
+    <string name="mother_s_name">Mother\'s name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="sex">Gender</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="address">Address</string>
+    <string name="nameerror">enter valid date of birth</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="academics_details">Academics Details</string>
+    <string name="school_name">School name</string>
+    <string-array name="stream">
+        <item>Select your stream</item>
+        <item>Science</item>
+        <item>Commerce</item>
+        <item>Arts</item>
+    </string-array>
+    <string name="marks_in_percentage">Marks(in percentage)</string>
+    <string name="college_name">College name</string>
+    <string name="submit">SUBMIT</string>
+    <string name="clear">Clear</string>
+    <string name="qualified">Qualified</string>
+    <string name="invalid_name">Please enter valid name.</string>
+    <string name="invalid_phone">enter valid phpne number</string>
+    <string name="invalid_address">enter a valid address</string>
+    <string name="invalid_school">enter a valid school name</string>
+    <string name="choose_course">choose_course</string>
+    <string name="_10th_grade_details">10th grade details</string>
+    <string name="_12th_grade_details">12th grade details</string>
+    <string name="graduation_details">Graduation details</string>
+    <string name="mandatory">All fields are mandatory</string>
+    <string name="stream">Stream</string>
+    <string name="graduation_course">Graduation Course</string>
+    <string name="course">Course</string>
+    <string name="invalid_percent">enter valid percentage</string>
+    <string name="year">year</string>
+    <string name="err_birth"> age not eligible to apply</string>
+    <string name="applicant_details">Applicant Details</string>
+    <string name="gender">Gender</string>
+    <string name="select_course">Select Course</string>
+    <string name="course_enrolled_for">Course enrolled for</string>
+    <string name="back_to_mainmenu">Back to mainmenu</string>
+    <string-array name="cousres">
+        <item>Select the course</item>
+        <item>M.C.A</item>
+        <item>M.tech</item>
+        <item>M.sc</item>
+        <item>M.sc(agriculture)</item>
+        <item>M.com</item>
+        <item>M.B.A</item>
+        <item>M.arch</item>
+        <item>M.A</item>
+        <item>M.ed</item>
+        <item>M.B.A</item>
+    </string-array>
+    <string-array name="grad_course">
+        <item>Select the course</item>
+        <item>B.A</item>
+        <item>B.COM</item>
+        <item>B.C.A</item>
+        <item>B.arch</item>
+        <item>B.sc</item>
+        <item>B.ed</item>
+        <item>B.B.A</item>
+        <item>B.tech</item>
+        <item>B.sc(agriculture)</item>
+        <item>B.A</item>
+        <item>others</item>
+    </string-array>
+    <string-array name="courses2">
+        <item>Select the course</item>
+        <item>B.A</item>
+        <item>B.COM</item>
+        <item>B.C.A</item>
+        <item>B.arch</item>
+        <item>B.sc</item>
+        <item>B.ed</item>
+        <item>B.B.A</item>
+        <item>B.tech</item>
+        <item>B.sc(agriculture)</item>
+        <item>B.A</item>
+    </string-array>
+
+</resources>

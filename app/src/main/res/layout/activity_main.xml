@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorprimary"
+    android:padding="16dp"
+    android:textAlignment="center"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/circle_draw">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_profile"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:fontFamily="@font/amaranth_bold"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/full_name"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:fontFamily="@font/amaranth_bold"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        tools:ignore="TextViewEdits"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:fontFamily="@font/amaranth_bold"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_number"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:fontFamily="@font/amaranth_bold"/>
+    </LinearLayout>
+
+
+</LinearLayout>

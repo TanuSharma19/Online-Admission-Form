@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubmitForm2"
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/pattern">
+        <TextView
+            android:id="@+id/app_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/applicant_details"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personal_details"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+
+            android:id="@+id/personal"
+            android:layout_marginBottom="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/detail_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/father_s_name"
+                android:textSize="16sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/detail_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mother_s_name"
+                android:textSize="16sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/detail_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gender"
+                android:textSize="16sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/detail_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date_of_birth"
+                android:textSize="16sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/detail_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_number"
+                android:textSize="16sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/detail_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textSize="16sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/detail_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_10th_grade_details"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/school_name"
+                android:textSize="16sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/detail_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/marks_in_percentage"
+                android:textSize="16sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/detail_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_12th_grade_details"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/school_name"
+                android:textSize="16sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/detail_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stream"
+                android:textSize="16sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/detail_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/marks_in_percentage"
+                android:textSize="16sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/detail_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/graduation_details"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/college_name"
+                android:textSize="16sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/detail_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/graduation_course"
+                android:textSize="16sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/detail_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/marks_in_percentage"
+                android:textSize="16sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/detail_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/course_enrolled_for"
+                android:textSize="16sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/detail_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <Button
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/back_to_mainmenu"
+            android:textColor="@color/black"
+            android:id="@+id/back"
+            android:onClick="back_button"
+            />
+
+    </LinearLayout>
+</ScrollView>
